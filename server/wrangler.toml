@@ -1,0 +1,5 @@
+# Cloudflare Worker settings. Deploy with `npx wrangler deploy` from this folder.
+# The Sportmonks key is a secret, never in this file:  npx wrangler secret put SPORTMONKS_TOKEN
+name = "matchday-api"
+main = "src/index.js"
+compatibility_date = "2026-10-01"

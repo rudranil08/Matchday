@@ -1,0 +1,12 @@
+{
+  "name": "matchday-api",
+  "private": true,
+  "type": "module",
+  "description": "Matchday's data server: Sportmonks (or sample data) in, the app's JSON out.",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "test": "node --test test/*.test.mjs",
+    "probe": "node scripts/probe.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

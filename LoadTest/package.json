@@ -1,0 +1,12 @@
+{
+  "name": "matchday-load-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "emulators": "cp ../firestore.rules firestore.rules && firebase emulators:start --only auth,firestore --project demo-matchday",
+    "load": "node load.mjs"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.0.0"
+  }
+}
